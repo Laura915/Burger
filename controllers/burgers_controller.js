@@ -17,7 +17,7 @@ router.get("/", function (req, res) {
 });
 
 //post new data route
-router.post("/api/burger", function (req, res) {
+router.post("/api/burgers", function (req, res) {
   burger.insertOne(
     [
       "burger_name", "devoured"
@@ -32,8 +32,8 @@ router.post("/api/burger", function (req, res) {
 })
 
 //put new data route
-router.put("/api/burger/:id", function(req,res){
-  const condition="id="+req.params.id;
+router.put("/api/burgers/:id", function(req,res){
+  var condition= "id = "+req.params.id;
 
   // console.log("condition", condition);
 
@@ -47,8 +47,7 @@ router.put("/api/burger/:id", function(req,res){
     } else {
       res.status(200).end();
     }
-  })
-})
-
+  });
+});
 
 module.exports = router;
