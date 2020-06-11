@@ -1,20 +1,40 @@
-<h2>Eat that Burger!</h2>
 
-<h4> Available Burgers</h4>
-<ol>
-  {{#each burgers}}
+<header>
+  <img src="/assets/img/burger.png" alt="burger">
+  <h2>Eat that Burger!</h2>
+</header>
+
+
+<div>
+  <h4> Available Burgers</h4>
+  <ol>
+    {{#each burgers}}
     {{#unless devoured}}
-      {{> burgers/burger-block devoured=true}}
+    {{> burgers/burger-block devoured=true}}
     {{/unless}}
-  {{/each}}
-</ol>
+    {{/each}}
+  </ol>
+</div>
 
-<h4>Fininshed Burgers</h4>
-<ol>
-  {{#each burgers}}
+<div>
+  <h4>Fininshed Burgers</h4>
+  <ol>
+    {{#each burgers}}
     {{#if devoured}}
-      {{> burgers/burger-block devoured=false}}
+    {{> burgers/burger-block devoured=false}}
     {{/if}}
-  {{/each}}
-</ol>
+    {{/each}}
+  </ol>
+</div>
 
+<div>
+<form class="create-form">
+
+  <div class="form-group">
+    <label for="bu">Burger Name:</label>
+    <input type="text" id="bu" name="name">
+  </div>
+  <button type="submit">Submit</button>
+
+</form>
+</div>
