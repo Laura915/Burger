@@ -1,0 +1,21 @@
+*{
+    background-color: rosybrown;
+}
+#center-all-content{
+    text-align: center;
+}
+
+img {
+    width:160px;
+}
+
+ol{
+ list-style-position: inside;  
+ text-align: left;
+ margin-left: 30%; 
+
+}
+
+button{
+    background-color: seagreen;
+}
