@@ -1,5 +1,8 @@
 *{
-    background-color: rosybrown;
+    background: black;
+    color: darkgray;
+    font-family: 'Dancing Script', cursive;
+
 }
 #center-all-content{
     text-align: center;
@@ -13,9 +16,9 @@ ol{
  list-style-position: inside;  
  text-align: left;
  margin-left: 30%; 
-
 }
 
-button{
-    background-color: seagreen;
+li{
+    padding: 3%;
 }
+
