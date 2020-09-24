@@ -1,9 +1,13 @@
   # Burger
 
-   ### [Buger App link !](https://secure-beyond-70824.herokuapp.com/)
+   ### [Deployed Buger App link !](https://secure-beyond-70824.herokuapp.com/)
 
- ## Description 
- The Burger app will help you keep track of your burgers with an organized layout.
+  ## Description 
+  The Burger app will help you keep track of your burgers with an organized layout.
+
+  <!-- [<img src="public/assets/img/burgerScreenShot.png" width="300" height="250" style="text-align:center"/>](public/assets/img/burgerScreenShot.png) -->
+
+  <span style="display:block;text-align:center">[<img src="public/assets/img/burgerScreenShot.png" width="300" height="250"/>](public/assets/img/burgerScreenShot.png)</span>
 
   ## Table of Contents
 
@@ -21,11 +25,11 @@
   ```npm i```
 
   ## Usage
-  User may input a new burger underneath "Add a New Burger" and then click submit </br> 
-  Then the new burger will appear on the "Available Buger" list </br>
-  User can devour a burger by clicking on the "devour" button </br>
-  And as a result, the devoured burger will move to the "finished burger" section
-  lastly, user may click try again button on any finished burger to move back to the "Available Burger" section
+  - User may input a new burger underneath "Add a New Burger" and then click submit </br> 
+  - Then the new burger will appear on the "Available Buger" list </br>
+  - User can devour a burger by clicking on the "devour" button </br>
+  - And as a result, the devoured burger will move to the "finished burger" section </br>
+  - lastly, user may click try again button on any finished burger to move back to the "Available Burger" section
 
   Follow the link: </br>
   [Buger App link](https://secure-beyond-70824.herokuapp.com/)
